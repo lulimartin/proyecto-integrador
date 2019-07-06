@@ -107,20 +107,6 @@ height: 240px;
 /* Footer
 ------------------------- */
 
-*{
-  font-family: Arial;
-  box-sizing: border-box;
-}
-
-body{
-  background-image:url("background.jpg");
-}
-
-h4{
-   text-transform: uppercase;
-   color: white;
-   text-align: center;
-}
 
 .footer{
   width: 100%;
