@@ -1,4 +1,7 @@
 
+*{
+    box-sizing: border-box;
+}
 body {
   height: 100%;
 }
@@ -41,4 +44,21 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+.text-center {
+    text-align: center!important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+      width: 72px;
+    height: 72px;
+  margin-bottom: 1.5rem!important;
+}
+btn-primary:hover {
+    color: #fff;
+    background-color: red;
+    border-color: #0062cc;
+      display: block;
+    width: 100%;
 }
