@@ -55,7 +55,7 @@ img {
     height: 150px;
   margin-bottom: 1.5rem!important;
 }
-btn-primary:hover {
+btn-primary {
     color: #fff;
     background-color: red;
     border-color: #0062cc;
