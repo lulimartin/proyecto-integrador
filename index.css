@@ -2,10 +2,14 @@
 -----------------------------------------  color: #5a5a5a;--------- */
 /* Padding below the footer and lighter body text */
 
+*{
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-
   background-image: "background.jpg";
 }
 
@@ -147,7 +151,7 @@ a:hover {
   flex-flow: row;
   justify-content: flex-end;
 
-
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
