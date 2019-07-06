@@ -51,8 +51,8 @@ body {
 img {
     vertical-align: middle;
     border-style: none;
-      width: 72px;
-    height: 72px;
+     width: 200px;
+    height: 150px;
   margin-bottom: 1.5rem!important;
 }
 btn-primary:hover {
