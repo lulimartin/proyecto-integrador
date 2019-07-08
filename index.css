@@ -19,33 +19,7 @@ body {
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-.conteiner img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-left: .75rem;
-}
-.col-lg-4 img {
-height: 240px;
-}
-/* Carousel base class */
 
-.bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-.carousel {
-  margin-bottom: 4rem;
 
 
 /* MARKETING CONTENT
@@ -114,31 +88,7 @@ height: 240px;
   letter-spacing: -.05rem;
 }
   
-/* hotspot */  
-  .invisible-hotspot {
-    background: #FFF;
-    color: #333;
-    width: auto;
-    height: auto;
-    border-radius: 0;
-    background: #333;
-    opacity: 0;
-    left: 50%;
-    padding: 14px 15px 13px;
-    line-height: 17px;
-    text-indent: 0;
-    margin: 0 auto;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    -webkit-transition: opacity .3s ease-out;
-    -moz-transition: opacity .3s ease-out;
-    transition: opacity .3s ease-out;
-    white-space: nowrap;
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-}
+
 
 
 /* RESPONSIVE CSS
