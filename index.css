@@ -111,6 +111,32 @@ height: 240px;
   line-height: 1;
   letter-spacing: -.05rem;
 }
+  
+/* hotspot */  
+  .invisible-hotspot {
+    background: #FFF;
+    color: #333;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    background: #333;
+    opacity: 0;
+    left: 50%;
+    padding: 14px 15px 13px;
+    line-height: 17px;
+    text-indent: 0;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+    white-space: nowrap;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
 
 
 /* RESPONSIVE CSS
