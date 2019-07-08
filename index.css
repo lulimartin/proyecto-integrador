@@ -66,6 +66,7 @@ body {
 .lead {
     font-size: 1.25rem;
     font-weight: 300;
+  
 }
 .row {
     display: -ms-flexbox;
@@ -74,6 +75,14 @@ body {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+}
+
+
+span.text-muted {
+    padding-left: 50px;
+}
+p.lead2 {
+    padding-left: 100px;
 }
 
 /* Featurettes
