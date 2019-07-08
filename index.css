@@ -68,8 +68,10 @@ width: 240px;
 height: 240px;
 }
 .row_img {
-  width: 500px;
-  height: 500px;
+    vertical-align: middle;
+    border-style: none;
+    width: 500px;
+
 }
 .bd-placeholder-img {
     font-size: 1.125rem;
