@@ -67,7 +67,7 @@ height: 240px;
 width: 240px;
 height: 240px;
 }
-.row featurette img{
+.row_img {
   width: 500px;
   height: 500px;
 }
@@ -84,6 +84,7 @@ height: 240px;
     max-width: 100%;
     height: auto;
 }
+
 .lead {
     font-size: 1.25rem;
     font-weight: 300;
