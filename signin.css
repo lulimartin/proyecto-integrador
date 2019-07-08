@@ -4,6 +4,7 @@
 }
 body {
   height: 100%;
+  background-image: "background.jpg";
 }
 
 body {
@@ -89,18 +90,36 @@ img {
     height: 150px;
   margin-bottom: 1.5rem!important;
 }
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
 .btn {
  display: inline-block;
   font-family: arial;
-  font-weight: $btn-font-weight;
-  color: red;
+     width: 250px;
+    height: 35px;
+    display: inline-block;
+    margin-top: 20px;
+  color: white;
   text-align: center;
   vertical-align: middle;
   user-select: none;
-  background-color: transparent;
+  background-color: red;
   border: $btn-border-width solid transparent;
-  @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, $btn-border-radius);
-  @include transition($btn-transition);
+
 }
 
 
