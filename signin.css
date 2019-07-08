@@ -138,6 +138,51 @@ img {
       align-items: center;
       margin-bottom: 0;
     }
+
+.footer_4{
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.afip img {
+  width: 50px;
+  padding: 10px;
+}
+
+.dh img{
+  width: 190px;
+  padding: 10px;
+}
+
+.footer_11{
+  padding: 20px;
+  width: 33%;
+  text-align: center;
+}
+
+@media (max-width:800px) {
+  .footer{
+    height:auto;
+  }
+  .footer_1{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+  }
+  .footer_11{
+    padding: 20px;
+    width: 100%;
+  }
+
+  #medio{
+    border: none;
+  }
+
+    
 @media (min-width: 360px) {
 
             .                .
