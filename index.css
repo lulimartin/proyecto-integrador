@@ -10,13 +10,25 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-image: "background.jpg";
+	background-image: url('img/background.jpg');
+	    background-size: cover;
+		background-repeat: no-repeat;
 }
 
-.navbar-brand img{
-  width: 50px;
+/* Navbar
+-------------------------------------------------- */
+header {
+	width:100%;
 }
-
+header nav {
+	width:90%;
+	max-width:1300px;
+	margin:20px auto;
+	background: rgb(150,0,24,0.8);
+}
+.navbar {
+background: rgb(150,0,24,0.8);
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
