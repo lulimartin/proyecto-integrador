@@ -144,8 +144,23 @@ p.lead2 {
     margin-top: 7rem;
   }
 }
-
-
+/* w-clearfix
+-------------------------------------------------- */
+.w-clearfix:before,
+.w-clearfix:after {
+content: " ";
+display: table;
+}
+.w-clearfix:after {
+clear: both;
+}
+.linkRedes{
+	width: 31%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 10%;
+	float: left;
+}
 /* footer CSS
 -------------------------------------------------- */
 
