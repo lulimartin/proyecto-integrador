@@ -1,6 +1,7 @@
 
 *{
-    box-sizing: border-box;
+  font-family: Arial;
+  box-sizing: border-box;
 }
 body {
   padding-top: 3rem;
@@ -150,6 +151,10 @@ img {
       align-items: center;
       justify-content: center;
       margin-bottom: 0;
+     margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
     }
 
     // Inline-block all the things for "inline"
