@@ -161,6 +161,9 @@ clear: both;
 	margin-right: 1%;
 	margin-top: 10%;
 	float: unset;
+	position: -webkit-sticky;  // required for Safari
+    position: sticky;
+    top: 0; // required as well.
 }
 /* footer CSS
 -------------------------------------------------- */
