@@ -102,6 +102,9 @@ span.text-muted {
 p.lead2 {
     padding-left: 80px;
 }
+.text-muted {
+    color: rgb(150,0,24,0.8);
+}
 
 /* Featurettes
 ------------------------- */
