@@ -116,6 +116,9 @@
     flex-flow: row wrap;
     justify-content: space-around;
   }
+  img.imgprod {
+    width: 300px;
+}
   #producto1, #producto2, #producto3{
     margin-top: 50px;
   }
